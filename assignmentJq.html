@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>USE jquery</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        
+    </head>
+    <body>
+        
+            <div class="img"><img src="rightpoint.png" alt="RP" width="600px" height="200px"></div>
+            <div class="formdata">
+                <form action="" method="post" id="myForm">
+                <label for="name">NAME</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="ohr">OHR</label><br>
+                <input type="text" id="ohr" name="ohr"><br><br>
+                <label for="profile">PROFILE</label><br>
+                <input type="text" id="profile" name="profile"><br><br>
+                <label for="department">DEPARTMENT</label><br>
+                <input type="text" id="department" name="departmenet"><br><br>
+                <label for="location" id="location">LOCATION</label><br>
+                <select id="location" name="location">
+                <option value="jaipur">JAIPUR</option>
+                <option value="bangluru">BANGLURU</option>
+                <option value="chicago">CHICAGO</option>
+                <option value="atlanta">ATLANTA</option>
+                <option value="oakland">OAKLAND</option>
+                <option value="bostan">BOSTAN</option>
+                <option value="dallas">DALLAS</option>
+                <option value="london">LONDON</option>
+                <option value="las angles">LAS ANGLES</option>
+                <option value="new york">NEW YORK</option>
+                </select><br>
+                <input type="submit" name="sub" value="submit">
+                
+                  
+                </select>
+            </form>
+            </div>
+           
+        </div>
+        
+            <table border="1">
+              <thead>
+                <tr>
+                  <td>NAME</td>
+                  <td>OHR ID</td>
+                  <td>JOB PROFILE</td>
+                  <td>DEPARTMENT</td>
+                  <td>LOCATION</td>
+                </tr>
+              </thead>
+              <tbody id="displayArea"></tbody>
+            </table>
+          
+    </body>
+</html>
